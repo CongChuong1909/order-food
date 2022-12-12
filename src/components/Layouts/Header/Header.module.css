@@ -1,0 +1,11 @@
+.header{
+    background-color: #0973b9;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    min-width: var(--headerHeight);
+}
+.orderbtn{
+    color: #fff;
+   
+}

@@ -1,0 +1,39 @@
+.product__item-sale-off{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 36px;
+    background-color: rgb(255, 216, 64,.92);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #555;
+    font-size: 0.8rem;
+}
+
+.product__item-sale-off::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top:36px;
+    border-width:0 20px 5px;
+    border-style: solid;
+    border-color:transparent rgb(255, 216, 64,.92) transparent rgb(255, 216, 64,.92);
+}
+.product__item-sale-off-percent{
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+}
+.product__item-sale-off-label{
+    color: var(--while-color);
+    position: relative;
+    top: -7px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 2rem;
+}
