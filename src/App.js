@@ -1,7 +1,9 @@
-import { Container, Grid, Paper } from "@mui/material";
+import { Container, Grid, Paper, Typography } from "@mui/material";
 import { BasicTabs, CartProduct, Header } from "./components/Layouts";
 import CartProvider from "./Store/CartProvider";
+
 function App() {
+
     return (
         <CartProvider>
             <Container
